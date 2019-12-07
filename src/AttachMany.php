@@ -49,7 +49,7 @@ class AttachMany extends Field
                     );
                 });
 
-                unset($request->$attribute);
+                // unset($request->$attribute);
             }
         });
     }
